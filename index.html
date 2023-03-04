@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Keeper</title>
+    <link rel="icon" type="image/png" href=https://www.pngarts.com/files/8/Bookmark-PNG-High-Quality-Image.png>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 id="show-modal">Add Bookmark</h1>
+    <div class="container" id="bookmarks-container">
+         
+    </div>
+    <div class="modal-container " id="modal">
+        <div class="modal">
+            <i class="fas fa-times close-icon" id="close-modal"></i>
+            <div class="modal-header">
+                <h3>Add Bookmar</h3>
+            </div>
+            <div class="modal-content">
+                <form id="bookmark-form">
+                    <!-- website Name -->
+                    <div class="form-group">
+                        <label for="website-name" class="form-label">Website Name</label>
+                        <input type="text" id="website-name" class="form-input">
+                    </div>
+                    <!-- website Url -->
+                    <div class="form-group">
+                        <label for="website-url" class="form-label">Website Url</label>
+                        <input type="text" id="website-url" class="form-input">
+                    </div>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="/script.js"></script>
+</body>
+</html>
